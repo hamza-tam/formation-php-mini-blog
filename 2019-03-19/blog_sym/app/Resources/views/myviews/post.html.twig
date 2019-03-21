@@ -1,0 +1,13 @@
+{% extends 'myviews/default.html.twig' %}
+
+{% block body %}
+
+{% if test %}
+	hello
+{% else %}
+	not hello
+{% endif %}
+
+<a href="{{ link }}">{{ greeting | upper }}</a>
+
+{% endblock %}
